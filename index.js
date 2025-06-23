@@ -1,5 +1,6 @@
-console.log('Hello World');
-let name='Ansel';
-let age=20;
-let isApproved= true;
-let selectColor=undefined;
+const student = {
+ fullname: "Ansel",
+ age: 20,
+ isApproved: true,
+ selectColor: undefined,
+};
