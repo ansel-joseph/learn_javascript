@@ -1,6 +1,4 @@
-const student = {
- fullname: "Ansel",
- age: 20,
- isApproved: true,
- selectColor: undefined,
-};
+let a=5;
+let b="5";
+
+console.log("a===b is ", a===b);
