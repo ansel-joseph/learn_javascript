@@ -1,7 +1,4 @@
-let number=15
-if(number%2==0){
-    console.log(number, "is Even Number")
-}
-else{
-    console.log(number," is Odd Number")
-}
+let age=20
+
+let result= age>18? "can vote": "cannot vote";
+console.log(result);
