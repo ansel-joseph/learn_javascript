@@ -1,7 +1,13 @@
-let num=prompt("Enter a number")
 
-if (num%5==0){
-    console.log("It is a multiple of 5");
-}else{
-    console.log("It is not a multiple of 5")
+let game_num = 23;
+
+for(i=0; i=10; i++){
+    user=prompt("Guess the number");
+    if(user==game_num){
+        console.log("You're guess is correct");
+        break;
+    }else{
+        console.log("You're guess is wrong");
+    }
 }
+    
