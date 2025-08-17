@@ -1,4 +1,5 @@
-username=prompt("Enter your name");
-usr="@"+username+username.length
-console.log(usr)
-    
+let countries= ["Russia", "USA", "Japan", "China", "India"]
+
+for(let country of countries){
+    console.log(country.toUpperCase());
+}
