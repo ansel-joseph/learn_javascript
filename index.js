@@ -1,12 +1,6 @@
-function sum(a, b) {
-    return a + b;
+//Arrow Functions
+const div = (a, b) => {
+    return a / b
 }
-function pdt(a, b) {
-    return a * b;
-}
-
-let addition = sum(2, 3)
-console.log(addition)
-let multiplication = pdt(5, 6)
-console.log(multiplication)
-
+let divi = div(10, 2)
+console.log(divi)
