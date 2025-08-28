@@ -1,1 +1,1 @@
-alert("Hello The Guy In Christ")
+console.dir(document);
