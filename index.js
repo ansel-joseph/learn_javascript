@@ -1,5 +1,5 @@
-let button = document.getElementById("myid");
-console.dir(button);
-let headings = document.getElementsByClassName("myclass");
-console.dir(headings); 
-console.log(headings);
+let elements = document.querySelector("p"); //1st element
+console.dir(elements);
+let all = document.querySelectorAll("p"); //All elements
+console.dir(all);
+    
