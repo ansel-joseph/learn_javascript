@@ -1,5 +1,4 @@
-let elements = document.querySelector("p"); //1st element
-console.dir(elements);
-let all = document.querySelectorAll("p"); //All elements
-console.dir(all);
-    
+const btn = document.getElementById("myid");
+btn.addEventListener('click', function(){
+    alert("Hello there!");
+});
