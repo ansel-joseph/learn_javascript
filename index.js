@@ -1,4 +1,6 @@
-const btn = document.getElementById("myid");
-btn.addEventListener('click', function(){
-    alert("Hello there!");
+const msg = document.getElementById("msg");
+const changeBtn = document.getElementById("changeBtn");
+
+changeBtn.addEventListener("click", () => {
+    msg.textContent = "Text Changed!";
 });
